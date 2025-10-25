@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Junior Secondary School Ushafa</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#111;background:#f8f9fa}
+    header{background:#0b66a3;color:#fff;padding:18px 16px}
+    .container{max-width:1000px;margin:0 auto;padding:0 16px}
+    nav a{color:#fff;margin-right:12px;text-decoration:none;font-weight:600}
+    .hero{background:#fff;border-radius:8px;padding:20px;margin:18px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .card{border:1px solid #dee2e6;border-radius:8px;padding:12px;background:#fff}
+    footer{color:#666;padding:18px 16px;text-align:center;font-size:0.9rem}
+    @media (max-width:420px){nav a{display:block;margin:6px 0}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <h1 style="margin:0;font-size:1.3rem">Junior Secondary School Ushafa</h1>
+          <div style="font-size:0.9rem">Knowledge • Discipline • Excellence</div>
+        </div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#staff">Staff</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <h2>Welcome to JSS Ushafa</h2>
+      <p>Junior Secondary School Ushafa is dedicated to raising disciplined, creative, and responsible young learners through quality education and moral training.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3 id="staff">Our Staff</h3>
+        <p>Meet our dedicated teachers and administrative team working to nurture every student’s potential.</p>
+      </div>
+      <div class="card">
+        <h3 id="news">News & Events</h3>
+        <p>Stay informed about school activities, examinations, and upcoming events.</p>
+      </div>
+      <div class="card">
+        <h3 id="admissions">Admissions</h3>
+        <p>Learn about enrollment requirements, transfer procedures, and key academic dates.</p>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <h3 id="contact">Contact Us</h3>
+      <p><b>Phone:</b> +234 XXX XXX XXXX</p>
+      <p><b>Email:</b> jssushafa@example.com</p>
+      <p><b>Address:</b> Ushafa, Bwari Area Council, Abuja</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Junior Secondary School Ushafa · All Rights Reserved
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
