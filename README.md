@@ -1,2 +1,2 @@
 # jssushafa.github.io
-fficial Website for Junior Secondary School Ushafa
+official Website for Junior Secondary School Ushafa
